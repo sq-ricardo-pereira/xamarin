@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    xmlns:local="clr-namespace:TestDriver" 
+    xmlns:local="clr-namespace:TestDriver"
+    xmlns:vm="clr-namespace:TestDriver.ViewModels"
     x:Class="TestDriver.Views.ListagemView"
     Title="Test Driver"
     >
+    <ContentPage.BindingContext>
+        <vm:ListagemViewModel></vm:ListagemViewModel>
+    </ContentPage.BindingContext>
 	<ListView x:Name="ListViewVeiculos" ItemsSource="{Binding Veiculos}" Margin="25"
         ItemTapped="Handle_ItemTapped"
         >

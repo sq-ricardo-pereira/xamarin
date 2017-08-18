@@ -2,12 +2,43 @@
   <MonoDevelop.Ide.ItemProperties.TestDriver.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FABFF731-DF6E-4E40-82FE-2E820BE1CB6B" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TestDriver/Views/AgendamentoView.xaml.cs">
     <Files>
-      <File FileName="TestDriver/Views/ListagemView.xaml.cs" Line="16" Column="39" />
-      <File FileName="TestDriver/Views/DetalheVeiculoViews.xaml.cs" Line="75" Column="7" />
-      <File FileName="TestDriver/Views/AgendamentoView.xaml.cs" Line="33" Column="9" />
+      <File FileName="TestDriver/Views/ListagemView.xaml.cs" Line="22" Column="57" />
+      <File FileName="TestDriver/Views/DetalheVeiculoViews.xaml.cs" Line="19" Column="9" />
+      <File FileName="TestDriver/Views/AgendamentoView.xaml.cs" Line="75" Column="11" />
+      <File FileName="TestDriver/Models/Agendamento.cs" Line="7" Column="25" />
+      <File FileName="TestDriver/Models/Veiculo.cs" Line="4" Column="21" />
+      <File FileName="TestDriver/ViewModels/ListagemViewModel.cs" Line="15" Column="6" />
+      <File FileName="TestDriver/Views/ListagemView.xaml" Line="28" Column="16" />
+      <File FileName="TestDriver/obj/Debug/TestDriver.Views.ListagemView.xaml.g.cs" Line="27" Column="1" />
+      <File FileName="TestDriver/ViewModels/DetalheVeiculoViewModel.cs" Line="84" Column="68" />
+      <File FileName="TestDriver/ViewModels/AgendamentoViewModel.cs" Line="8" Column="10" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestDriver" expanded="True">
+            <Node name="TestDriver" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="AgendamentoView.xaml" expanded="True">
+                  <Node name="AgendamentoView.xaml.cs" selected="True" />
+                </Node>
+                <Node name="DetalheVeiculoViews.xaml" expanded="True" />
+                <Node name="ListagemView.xaml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="TestDriver" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TestDriver.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.TestDriver.Droid PreferredExecutionTarget="Android.400b6697" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

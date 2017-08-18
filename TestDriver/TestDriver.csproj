@@ -56,10 +56,14 @@
     <Compile Include="Models\Veiculo.cs" />
     <Compile Include="Models\ListaVeiculo.cs" />
     <Compile Include="Models\Agendamento.cs" />
+    <Compile Include="ViewModels\ListagemViewModel.cs" />
+    <Compile Include="ViewModels\DetalheVeiculoViewModel.cs" />
+    <Compile Include="ViewModels\AgendamentoViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -25,7 +25,7 @@ namespace TestDriver.Views
                 Agendamento.Telefone = value;
             } }
         public string Email { get {
-                return Agendamento.Email;
+                    return Agendamento.Email;
             } set {
                 Agendamento.Email = value;
             } }
@@ -35,34 +35,35 @@ namespace TestDriver.Views
         {
             get
             {
-                return dataAgendamento;
+                return Agendamento.DataAgendamento;
             }
 
             set
             {
-                dataAgendamento = value;
+                Agendamento.DataAgendamento = value;
             }
         }
 
-        TimeSpan horaAgendamento;
         public TimeSpan HoraAgendamento
         {
             get
             {
-                return horaAgendamento;
+                return Agendamento.HoraAgendamento;
             }
 
             set
             {
-                horaAgendamento = value;
+                Agendamento.HoraAgendamento = value;
             }
         }
 
         public AgendamentoView(Veiculo veiculo)
         {
             InitializeComponent();
-            this.Veiculo = veiculo;
-            this.BindingContext = this;
+			this.Agendamento = new Agendamento(); /* faltou esta linha*/
+			this.Agendamento.Veiculo = veiculo; /* faltou esta linha*/
+            this.Agendamento.DataAgendamento = DateTime.Today;
+			this.BindingContext = this;
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)
