@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{991EE17D-59F3-4FE2-AEFE-B8135721F220}|Default">
+  <MonoDevelop.Ide.ItemProperties.TestDriver.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FABFF731-DF6E-4E40-82FE-2E820BE1CB6B" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestDriver/Views/AgendamentoView.xaml.cs">
+    <Files>
+      <File FileName="TestDriver/Views/ListagemView.xaml.cs" Line="16" Column="39" />
+      <File FileName="TestDriver/Views/DetalheVeiculoViews.xaml.cs" Line="75" Column="7" />
+      <File FileName="TestDriver/Views/AgendamentoView.xaml.cs" Line="33" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TestDriver.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
