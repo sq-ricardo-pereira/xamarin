@@ -22,5 +22,22 @@ namespace TestDriver.Views
         {
             Navigation.PushAsync(new AgendamentoView(this.Veiculo));
         }
+
+		protected override void OnAppearing()
+		{
+			base.OnAppearing();
+			MessagingCenter.Subscribe<Veiculo>(this, "Proximo", Message);
+		}
+
+		protected override void OnDisappearing()
+		{
+			base.OnDisappearing();
+			MessagingCenter.Unsubscribe<Veiculo>(this, "Proximo");
+		}
+
+		private void Message(Veiculo veiculo)
+		{
+			Navigation.PushAsync(new AgendamentoView(veiculo));
+		}
     }
 }

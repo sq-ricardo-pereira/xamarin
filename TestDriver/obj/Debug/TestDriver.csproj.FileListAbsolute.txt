@@ -11,6 +11,7 @@
 /Users/ricardopereira/Projects/TestDriver/TestDriver/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/ricardopereira/Projects/TestDriver/TestDriver/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/ricardopereira/Projects/TestDriver/TestDriver/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.csprojResolveAssemblyReference.cache
 /Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.csproj.CoreCompileInputs.cache
 /Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.App.xaml.g.cs
 /Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.Views.ListagemView.xaml.g.cs
@@ -18,4 +19,3 @@
 /Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.Views.AgendamentoView.xaml.g.cs
 /Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.dll
 /Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.pdb
-/Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.csprojResolveAssemblyReference.cache

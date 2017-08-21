@@ -5,8 +5,11 @@ namespace TestDriver.ViewModels
 {
     public class AgendamentoViewModel
     {
-        public AgendamentoViewModel()
+        public AgendamentoViewModel(Veiculo veiculo)
         {
+			this.Agendamento = new Agendamento();
+			this.Agendamento.Veiculo = veiculo;
+			this.Agendamento.DataAgendamento = DateTime.Today;
         }
 
 		public Agendamento Agendamento { get; set; }

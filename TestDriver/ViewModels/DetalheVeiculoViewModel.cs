@@ -2,6 +2,8 @@
 using TestDriver.Models;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace TestDriver.ViewModels
 {
@@ -12,6 +14,10 @@ namespace TestDriver.ViewModels
         public DetalheVeiculoViewModel(Veiculo veiculo)
         {
             this.Veiculo = veiculo;
+
+            ProximoCommand = new Command(() => {
+                MessagingCenter.Send<Veiculo>(veiculo, "Proximo");
+            });
         }
 
 		public string TextFreioAbs
@@ -90,5 +96,9 @@ namespace TestDriver.ViewModels
         public void OnPropertyChanged([CallerMemberName]string name = "") {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
+
+        public ICommand ProximoCommand { get; set; }
+
+       
     }
 }

@@ -22,5 +22,24 @@ namespace TestDriver.Views
             Navigation.PushAsync(new DetalheVeiculoViews(veiculo));
 
 		}
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            MessagingCenter.Subscribe<Veiculo>(this, "VeiculoSelecionado", Message);
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<Veiculo>(this, "VeiculoSelecionado");
+        }
+
+        private void Message(Veiculo veiculo)
+        {
+            Navigation.PushAsync(new DetalheVeiculoViews(veiculo));
+        }
+
+
 	}
 }

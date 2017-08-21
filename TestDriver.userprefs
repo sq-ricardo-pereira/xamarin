@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{991EE17D-59F3-4FE2-AEFE-B8135721F220}|Default">
   <MonoDevelop.Ide.ItemProperties.TestDriver.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FABFF731-DF6E-4E40-82FE-2E820BE1CB6B" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestDriver/Views/AgendamentoView.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestDriver/Views/DetalheVeiculoViews.xaml.cs">
     <Files>
       <File FileName="TestDriver/Views/ListagemView.xaml.cs" Line="22" Column="57" />
       <File FileName="TestDriver/Views/DetalheVeiculoViews.xaml.cs" Line="19" Column="9" />
-      <File FileName="TestDriver/Views/AgendamentoView.xaml.cs" Line="75" Column="11" />
-      <File FileName="TestDriver/Models/Agendamento.cs" Line="7" Column="25" />
+      <File FileName="TestDriver/Views/AgendamentoView.xaml.cs" Line="32" Column="2" />
+      <File FileName="TestDriver/Models/Agendamento.cs" Line="4" Column="29" />
       <File FileName="TestDriver/Models/Veiculo.cs" Line="4" Column="21" />
       <File FileName="TestDriver/ViewModels/ListagemViewModel.cs" Line="15" Column="6" />
       <File FileName="TestDriver/Views/ListagemView.xaml" Line="28" Column="16" />
       <File FileName="TestDriver/obj/Debug/TestDriver.Views.ListagemView.xaml.g.cs" Line="27" Column="1" />
       <File FileName="TestDriver/ViewModels/DetalheVeiculoViewModel.cs" Line="84" Column="68" />
-      <File FileName="TestDriver/ViewModels/AgendamentoViewModel.cs" Line="8" Column="10" />
+      <File FileName="TestDriver/ViewModels/AgendamentoViewModel.cs" Line="17" Column="4" />
+      <File FileName="TestDriver/Views/AgendamentoView.xaml" Line="5" Column="36" />
+      <File FileName="TestDriver/Views/DetalheVeiculoViews.xaml" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,10 +23,10 @@
               <Node name="Models" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="AgendamentoView.xaml" expanded="True">
-                  <Node name="AgendamentoView.xaml.cs" selected="True" />
+                <Node name="AgendamentoView.xaml" expanded="True" />
+                <Node name="DetalheVeiculoViews.xaml" expanded="True">
+                  <Node name="DetalheVeiculoViews.xaml.cs" selected="True" />
                 </Node>
-                <Node name="DetalheVeiculoViews.xaml" expanded="True" />
                 <Node name="ListagemView.xaml" expanded="True" />
               </Node>
             </Node>
@@ -38,7 +40,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TestDriver.Droid PreferredExecutionTarget="Android.400b6697" />
+  <MonoDevelop.Ide.ItemProperties.TestDriver.Droid PreferredExecutionTarget="Android.85b6423258524e53" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
