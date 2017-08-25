@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using System.Collections.Generic;
 using TestDriver.Models;
+using TestDriver.ViewModels;
 
 namespace TestDriver.Views
 {
@@ -9,10 +10,12 @@ namespace TestDriver.Views
 	public partial class ListagemView : ContentPage
 	{
         
-
+        public ListagemViewModel ViewModel { get; set; }
 		public ListagemView()
 		{
             InitializeComponent();
+            this.ViewModel = new ListagemViewModel();
+            this.BindingContext = this.ViewModel;
 		}
 
 		void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
@@ -23,10 +26,12 @@ namespace TestDriver.Views
 
 		}
 
-        protected override void OnAppearing()
+        protected async override void OnAppearing()
         {
             base.OnAppearing();
             MessagingCenter.Subscribe<Veiculo>(this, "VeiculoSelecionado", Message);
+
+            await this.ViewModel.GetVeiculos();
         }
 
         protected override void OnDisappearing()

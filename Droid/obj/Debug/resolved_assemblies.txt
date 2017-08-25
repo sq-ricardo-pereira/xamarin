@@ -44,3 +44,11 @@
 /Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/System.Runtime.InteropServices.dll
 /Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/Mono.Security.dll
 /Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
+/Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
+/Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/System.Xml.XDocument.dll
+/Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/System.Xml.Linq.dll
+/Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
+/Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/System.Text.Encoding.dll
+/Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
+/Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/android/assets/Microsoft.CSharp.dll

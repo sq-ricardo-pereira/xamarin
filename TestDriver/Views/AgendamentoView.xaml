@@ -27,6 +27,8 @@
                 </TableSection>
             </TableRoot>
         </TableView>
-        <Button Text="Agendar" Clicked="Handle_Clicked"></Button>
+        <Button Text="Agendar" 
+            Command="{ Binding CommandAgendar }">
+        </Button>
     </StackLayout>
 </ContentPage>

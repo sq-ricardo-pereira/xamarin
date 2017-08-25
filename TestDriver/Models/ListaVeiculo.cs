@@ -9,11 +9,7 @@ namespace TestDriver.Models
 
         public ListaVeiculo()
         {
-			this.Veiculos = new List<Veiculo>
-			{
-				new Veiculo { Nome = "Azira", Preco = 60000 },
-				new Veiculo { Nome = "Palio", Preco = 3000 }
-			};
+            this.Veiculos = new List<Veiculo>();
 
 		}
     }

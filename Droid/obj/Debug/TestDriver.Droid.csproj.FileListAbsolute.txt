@@ -41,3 +41,6 @@
 /Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
 /Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/R.cs.flag
 /Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/uploadflags.txt
+/Users/ricardopereira/Projects/TestDriver/Droid/bin/Debug/Newtonsoft.Json.dll
+/Users/ricardopereira/Projects/TestDriver/Droid/bin/Debug/Newtonsoft.Json.xml
+/Users/ricardopereira/Projects/TestDriver/Droid/obj/Debug/res/drawable/oi-logo.png

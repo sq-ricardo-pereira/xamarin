@@ -6,24 +6,27 @@
     x:Class="TestDriver.Views.ListagemView"
     Title="Test Driver"
     >
-    <ContentPage.BindingContext>
-        <vm:ListagemViewModel></vm:ListagemViewModel>
-    </ContentPage.BindingContext>
-	<ListView x:Name="ListViewVeiculos" ItemsSource="{ Binding Veiculos }" Margin="25"
-        SelectedItem="{ Binding VeiculoSelecionado }"
-        >
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <ViewCell.View>
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="{Binding Nome}" VerticalTextAlignment="Center" FontSize="20"></Label>
-                            <Label Text="-" VerticalTextAlignment="Center"></Label>
-                            <Label Text="{Binding PrecoFormatado}" VerticalTextAlignment="Center" FontAttributes="Bold"></Label>
-                        </StackLayout>
-                    </ViewCell.View>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+    <StackLayout Margin="25">
+    <ActivityIndicator IsRunning="{ Binding Aguarde }"
+        IsVisible="{ Binding Aguarde }"
+        ></ActivityIndicator>
+    	<ListView x:Name="ListViewVeiculos" 
+            ItemsSource="{ Binding Veiculos }"
+            SelectedItem="{ Binding VeiculoSelecionado }"
+            >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Nome}" VerticalTextAlignment="Center" FontSize="20"></Label>
+                                <Label Text="-" VerticalTextAlignment="Center"></Label>
+                                <Label Text="{Binding PrecoFormatado}" VerticalTextAlignment="Center" FontAttributes="Bold"></Label>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>
