@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Windows.Input;
+using TestDriver.Models;
+using TestDriver.Services;
+using Xamarin.Forms;
+
 namespace TestDriver.ViewModels
 {
     public class LoginViewModel
@@ -14,6 +19,7 @@ namespace TestDriver.ViewModels
             set
             {
                 usuario = value;
+                ((Command)EntrarCommand).ChangeCanExecute();
             }
         }
 
@@ -28,10 +34,26 @@ namespace TestDriver.ViewModels
             set
             {
                 password = value;
+                ((Command)EntrarCommand).ChangeCanExecute();
             }
         }
+
+        public ICommand EntrarCommand { get; private set; }
+
         public LoginViewModel()
         {
+            EntrarCommand = new Command(async () =>
+            {
+                var login = new LoginService();
+                await login.FazerLogin(new Login(usuario, password));
+
+            }, EnableButton );
+        }
+
+        private bool EnableButton()
+        {
+            return !string.IsNullOrEmpty(Usuario)
+                   && !string.IsNullOrEmpty(Password);
         }
     }
 }

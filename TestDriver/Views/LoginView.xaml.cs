@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using TestDriver.Models;
+using TestDriver.Services;
 using Xamarin.Forms;
 
 namespace TestDriver.Views
@@ -12,9 +13,19 @@ namespace TestDriver.Views
             InitializeComponent();
         }
 
-        void Login_Clicked(object sender, System.EventArgs e)
+        protected override void OnAppearing()
         {
-            MessagingCenter.Send<Usuario>(new Usuario(), "SucessoLogin");
+            MessagingCenter.Subscribe<LoginException>(this, "ErroLogin", async (exc) =>
+            {
+                await DisplayAlert("Login", exc.Message, "Ok");
+            });
         }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<LoginException>(this, "ErroLogin");
+        }
+
     }
 }

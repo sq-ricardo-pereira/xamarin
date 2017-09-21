@@ -19,7 +19,7 @@ namespace TestDriver
             MessagingCenter.Subscribe<Usuario>(this, "SucessoLogin", 
                 (usuario) => 
                 {
-                    MainPage = new NavigationPage(new ListagemView());
+                    MainPage = new MasterDetalheView(usuario);
                 });
         }
 

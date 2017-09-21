@@ -1,28 +1,23 @@
 ﻿<Properties StartupConfiguration="{991EE17D-59F3-4FE2-AEFE-B8135721F220}|Default">
   <MonoDevelop.Ide.ItemProperties.TestDriver.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FABFF731-DF6E-4E40-82FE-2E820BE1CB6B" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestDriver/ViewModels/LoginViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestDriver/Views/MasterDetailView.xaml.cs">
     <Files>
-      <File FileName="TestDriver/Views/ListagemView.xaml.cs" Line="10" Column="35" />
-      <File FileName="TestDriver/Views/DetalheVeiculoViews.xaml.cs" Line="40" Column="4" />
-      <File FileName="TestDriver/Views/AgendamentoView.xaml.cs" Line="63" Column="10" />
-      <File FileName="TestDriver/Models/Agendamento.cs" Line="4" Column="29" />
-      <File FileName="TestDriver/Models/Veiculo.cs" Line="4" Column="21" />
-      <File FileName="TestDriver/ViewModels/ListagemViewModel.cs" Line="60" Column="29" />
-      <File FileName="TestDriver/Views/ListagemView.xaml" Line="33" Column="1" />
-      <File FileName="TestDriver/obj/Debug/TestDriver.Views.ListagemView.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="TestDriver/ViewModels/DetalheVeiculoViewModel.cs" Line="4" Column="1" />
-      <File FileName="TestDriver/ViewModels/AgendamentoViewModel.cs" Line="79" Column="43" />
-      <File FileName="TestDriver/Views/AgendamentoView.xaml" Line="35" Column="1" />
-      <File FileName="TestDriver/Views/DetalheVeiculoViews.xaml" Line="24" Column="1" />
-      <File FileName="TestDriver/Models/ListaVeiculo.cs" Line="12" Column="13" />
-      <File FileName="TestDriver/ViewModels/BaseViewModel.cs" Line="7" Column="40" />
-      <File FileName="TestDriver/Views/LoginView.xaml" Line="10" Column="1" />
-      <File FileName="TestDriver/Views/LoginView.xaml.cs" Line="17" Column="71" />
-      <File FileName="TestDriver/App.xaml.cs" Line="23" Column="20" />
-      <File FileName="TestDriver/obj/Debug/TestDriver.Views.LoginView.xaml.g.cs" Line="23" Column="1" />
+      <File FileName="TestDriver/Models/Login.cs" Line="14" Column="6" />
+      <File FileName="TestDriver/ViewModels/LoginViewModel.cs" Line="48" Column="49" />
+      <File FileName="TestDriver/Views/LoginView.xaml.cs" Line="22" Column="10" />
+      <File FileName="TestDriver/Services/LoginService.cs" Line="36" Column="30" />
+      <File FileName="TestDriver/Views/MasterDetailView.xaml.cs" Line="16" Column="10" />
       <File FileName="TestDriver/App.xaml" Line="7" Column="1" />
-      <File FileName="TestDriver/Models/Usuario.cs" Line="6" Column="9" />
-      <File FileName="TestDriver/ViewModels/LoginViewModel.cs" Line="6" Column="9" />
+      <File FileName="TestDriver/App.xaml.cs" Line="26" Column="38" />
+      <File FileName="TestDriver/Views/MasterDetailView.xaml" Line="18" Column="1" />
+      <File FileName="TestDriver/Views/MasterView.xaml" Line="16" Column="41" />
+      <File FileName="TestDriver/Views/MasterView.xaml.cs" Line="17" Column="40" />
+      <File FileName="TestDriver/ViewModels/MasterViewModel.cs" Line="37" Column="25" />
+      <File FileName="TestDriver/Models/Usuario.cs" Line="7" Column="28" />
+      <File FileName="TestDriver/Views/LoginView.xaml" Line="16" Column="1" />
+      <File FileName="TestDriver/Views/ListagemView.xaml.cs" Line="1" Column="1" />
+      <File FileName="TestDriver/ViewModels/ListagemViewModel.cs" Line="1" Column="1" />
+      <File FileName="TestDriver/ViewModels/DetalheVeiculoViewModel.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TestDriver.Droid PreferredExecutionTarget="Android.85b6423258524e53" />

@@ -26,3 +26,5 @@
 /Users/ricardopereira/Projects/TestDriver/TestDriver/bin/Debug/Newtonsoft.Json.dll
 /Users/ricardopereira/Projects/TestDriver/TestDriver/bin/Debug/Newtonsoft.Json.xml
 /Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.Views.LoginView.xaml.g.cs
+/Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.Views.MasterDetailView.xaml.g.cs
+/Users/ricardopereira/Projects/TestDriver/TestDriver/obj/Debug/TestDriver.Views.MasterView.xaml.g.cs
